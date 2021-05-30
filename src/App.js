@@ -19,7 +19,7 @@ function App() {
         <Redirect from="/post-list/:postId" to="/posts/:postId" exact />
 
         <Route path="/" component={ProductFeature} exact />
-        <Route path="/albums" component={AlbumFeature} />
+        {/* <Route path="/albums" component={AlbumFeature} /> */}
         <Route path="/products" component={ProductFeature} />
         <Route path="/cart" component={CartFeature} />
 
