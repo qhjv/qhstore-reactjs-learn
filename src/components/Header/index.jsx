@@ -93,14 +93,14 @@ export default function Header() {
               QH STORE
             </Link>
           </Typography>
-
+          {/* <NavLink className={classes.link} to="/albums">
+            <Button color="inherit">Home</Button>
+          </NavLink> */}
           <NavLink className={classes.link} to="/Products">
             <Button color="inherit">Products</Button>
           </NavLink>
 
-          {/* <NavLink className={classes.link} to="/albums">
-            <Button color="inherit">Albums</Button>
-          </NavLink> */}
+          
 
           {!isLoggedIn && (
             <Button color="inherit" onClick={handleClickOpen}>

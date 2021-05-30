@@ -8,6 +8,7 @@ import AlbumFeature from './features/Album';
 import CounterFeature from './features/Counter';
 import TodoFeature from './features/Todo';
 import CartFeature from './features/Cart';
+import HomePage from 'components/homePage/homePage';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Redirect from="/home" to="/" exact />
         <Redirect from="/post-list/:postId" to="/posts/:postId" exact />
 
-        <Route path="/" component={ProductFeature} exact />
+        <Route path="/" component={HomePage} exact />
         {/* <Route path="/albums" component={AlbumFeature} /> */}
         <Route path="/products" component={ProductFeature} />
         <Route path="/cart" component={CartFeature} />

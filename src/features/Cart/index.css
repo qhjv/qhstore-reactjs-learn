@@ -1,0 +1,7 @@
+.price{
+    height:500px;
+    font-size:30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

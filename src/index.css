@@ -13,3 +13,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+  background: white;
+  color: #090909;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-colorInherit {
+  color: black;
+}
+a.makeStyles-link-4 {
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+}
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-sm-6.MuiGrid-grid-md-4.MuiGrid-grid-lg-3:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  cursor: pointer;
+}
